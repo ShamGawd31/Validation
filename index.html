@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+
+
+
+    <title>Validation</title>
+</head>
+<body>
+<form name="myForm" action="view.html" onsubmit="return validateForm()">
+    <input type="text" id="username" name="username" placeholder="Username" />
+    <input
+            type="password"
+            id="userPassword"
+            name="userPassword"
+            placeholder="Password"
+    />
+    <button type="submit">Login</button>
+    <span class="error"></span>
+    <span class="error-2"></span>
+</form>
+<script src="app.js"></script>
+
+</body>
+</html>
